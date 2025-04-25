@@ -57,7 +57,7 @@ class Programs extends StatelessWidget {
             // زر "التالي"
             GestureDetector(
               onTap: () {
-                  Navigator.pushNamed(context, Screen1_1.id);
+                  Navigator.pushNamed(context, Screen1_1.id , arguments: 'شروخ الخرسانة اللدنه');
               },
               child: Container(
                 width: double.infinity,
